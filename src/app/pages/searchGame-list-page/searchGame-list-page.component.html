@@ -1,0 +1,36 @@
+
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+            <div class="panel-body">
+
+              <hr>
+                <ul class="container details" >
+
+                </ul>
+                <hr>
+                <h2> </h2>
+                <table class="table table-bordered">
+                    <thead>
+
+                        <th> RATE = {{game.rateAcum}}</th>
+                        <th>{{game.name}}</th>
+                        <th>{{game.description}}</th>
+                        <td><img [src]= game.photo width="150" height="150" /></td>
+
+                    </thead>
+
+                </table>
+
+
+                <button type="button" class="btn btn-primary" routerLinkActive="/comments" routerLink="/comments">Comments ++</button>
+
+            </div>
+        </div>
+    </div>
+</div>
